@@ -1,0 +1,107 @@
+{
+  "Digital Logic": [
+    {
+      "question": "Consider Z = X – Y, where X, Y and Z are all in sign-magnitude form. X and Y are each represented in n bits. To avoid overflow, the representation of Z would require a minimum of __________. (GATE CSE 2019)",
+      "options": ["n + 1 bits", "n – 1 bits", "n + 2 bits", "n bits"],
+      "answer": "n + 1 bits"
+    },
+    {
+      "question": "In 16-bit 2’s complement representation, the decimal number -28 is __________. (GATE CSE 2019)",
+      "options": ["1000 0000 1110 0100", "0000 0000 1110 0100", "1111 1111 1110 0100", "1111 1111 0001 1100"],
+      "answer": "1111 1111 1110 0100"
+    },
+    {
+      "question": "Consider an eight-bit ripple-carry adder for computing the sum of A and B, where A and B are integers represented in 2′s complement form. If the decimal value of A is one, the decimal value of B that leads to the longest latency for the sum to stabilise is ________. (GATE CSE 2016 Set 2)",
+      "options": ["0", "1", "Both (a) and (b)", "Neither (a) nor (b)"],
+      "answer": "1"
+    },
+    {
+      "question": "The 16-bit 2′s complement representation of an integer is 1111 1111 1111 0101; its decimal representation is __________. (GATE CSE 2016 Set 1)",
+      "options": ["10", "11", "15", "20"],
+      "answer": "11"
+    },
+    {
+      "question": "The smallest integer that can be represented by an 8-bit number in 2′s complement form is ___________. (GATE CSE 2013)",
+      "options": ["-256", "-128", "-127", "0"],
+      "answer": "-128"
+    },
+    {
+      "question": "We want to design a synchronous counter that counts the sequence 0−1−0−2−0−3 and then repeat. The minimum number of J−K flip-flops required to implement this counter is ________. (GATE CSE 2016 Set 1)",
+      "options": ["Between 3 and 4", "Between 0 and 1", "Between 4 and 7", "Between 1 and 2"],
+      "answer": "Between 3 and 4"
+    },
+    {
+      "question": "The minimum number of JK flip-flops required to construct a synchronous counter with the count sequence (0,0,1,1,2,2,3,3,0,0,…) is _________. (GATE CSE 2015 Set 2)",
+      "options": ["1", "2", "4", "3"],
+      "answer": "3"
+    },
+    {
+      "question": "Consider a 4-bit Johnson counter with an initial value of 0000. The counting sequence of this counter is _______. (GATE CSE 2015 Set 1)",
+      "options": ["0, 1, 3, 7, 15, 14, 12, 8, 0", "0, 1, 3, 5, 7, 9, 11, 13, 15, 0", "0, 2, 4, 6, 8, 10, 12, 14, 0", "0, 8, 12, 14, 15, 7, 3, 1, 0"],
+      "answer": "0, 8, 12, 14, 15, 7, 3, 1, 0"
+    },
+    {
+      "question": "Consider the following representation of a number in IEEE 754 single-precision floating-point format with a bias of 127. S: 1 E: 10000001 F: 11110000000000000000000. The decimal value is ________ (rounded to 2 decimal places). (GATE CSE 2021 Set 1)",
+      "options": ["-7.75", "7.75", "-0.775", "0.775"],
+      "answer": "-7.75"
+    },
+    {
+      "question": "Let the representation of a number in base 3 be 210. What is the hexadecimal representation of the number? (GATE CSE 2021 Set 1)",
+      "options": ["21", "528", "12", "15"],
+      "answer": "15"
+    }
+  ],
+
+  "Computer Organization and Architecture": [
+    {
+      "question": "What would be the minterm expansion of the following:\nf(P, Q, R) = PQ + QR’ + PR’",
+      "options": ["m0 + m1 + m3 + m5", "m2 + m4 + m6 + m7", "m2 + m3 + m4 + m5", "m0 + m1 + m6 + m7"],
+      "answer": "m2 + m4 + m6 + m7"
+    },
+    {
+      "question": "What is the hexadecimal representation of 6578?",
+      "options": ["D71", "32F", "1AF", "D78"],
+      "answer": "1AF"
+    },
+    {
+      "question": "Let us consider an array multiplier used for the multiplication of two n bit numbers. In case every gate in the circuit faces a unit delay, then the total delay of this multiplier would be:",
+      "options": ["Θ(n)", "Θ(1)", "Θ(n^2)", "Θ(log n)"],
+      "answer": "Θ(n)"
+    },
+    {
+      "question": "What would be the total prime implicants of the following function:\nf(w, x, y, z) = Σ(0, 2, 4, 5, 6, 10)",
+      "options": ["5", "4", "3", "2"],
+      "answer": "3"
+    },
+    {
+      "question": "How many pulses do we need if we want to change the contents of any given 8-bit up counter from the bit 10101100 to bit 00100111 (the rightmost bit here is the LSB)?",
+      "options": ["123", "124", "133", "134"],
+      "answer": "123"
+    },
+    {
+      "question": "When we add a two’s complement, 4-bit, binary numbers 1101 and 0100, it would result in:",
+      "options": ["1001 and no overflow", "0001 and an overflow", "1001 and an overflow", "0001 and no overflow"],
+      "answer": "0001 and no overflow"
+    },
+    {
+      "question": "If we want to put an 8085 microprocessor in a wait state, then we have:",
+      "options": ["to raise the-HOLD input", "to raise the READY input", "to lower the HOLD input", "to lower the READY input"],
+      "answer": "to lower the READY input"
+    },
+    {
+      "question": "What would be the 2’s complement representation (in hexadecimal) of (−539)10?",
+      "options": ["9E7", "DE5", "DBC", "ABE"],
+      "answer": "DE5"
+    },
+    {
+      "question": "What would be the 2′ s complement representation of the -15 decimal value?",
+      "options": ["10001", "1111111", "1001", "1111"],
+      "answer": "1111"
+    },
+    {
+      "question": "If in a base-x type of number system, 73x is equivalent to that of 54y in a base-y type of number system, then the possible values of both- x and y would be:",
+      "options": ["10, 12", "8, 16", "8, 11", "9, 13"],
+      "answer": "8, 11"
+    }
+  ]
+}

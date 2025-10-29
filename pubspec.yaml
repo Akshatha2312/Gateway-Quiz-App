@@ -1,0 +1,33 @@
+name: myfirstapp
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.0
+  flutter_pdfview: ^1.4.1+1   # ✅ lightweight PDF viewer
+  path_provider: ^2.1.5       # ✅ to load local files
+  intl: ^0.18.1
+  fl_chart: any
+  shared_preferences: ^2.2.2  # ✅ added for saving small data locally
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/syllabus.pdf
+    - assets/questions.json
+# ✅ make sure this file exists
